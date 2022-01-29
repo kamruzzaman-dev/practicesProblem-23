@@ -1,46 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstraps/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>home</title>
 </head>
+
 <body>
 
-   <!-- navber section  -->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="img-fluid mx-2 bg-danger rounded-circle" height="40px" width="40px"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-      </svg>Education</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">course</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- navber section  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                    class="img-fluid mx-2 bg-danger rounded-circle" height="40px" width="40px" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>Education</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- header bannar section  -->
+    <header>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
 
+            <div class="carousel-inner">
+
+                <!-- 1st slider  -->
+                <div class="carousel-item active">
+                    <div class="overlay-image" style="background-image:url(./images/home-slide-1.jpg);">
+                    </div>
+                    <div class="carousel-caption d-md-block">
+                        <div class="container bannar-contant">
+                            <h1>Laughing and Crying</h1>
+                            <p class="d-none d-md-block">"In all the world, there is no heart for me like yours. In
+                                all the world, there is no love for you like mine." — Maya Angelou</p>
+                            <a href="https://www.brides.com/gallery/heartwarming-ceremony-moments" target="_blank"
+                                class="btn btn-lg btn-light text-primary fw-bolder">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd silder -->
+                <div class="carousel-item">
+                    <div class="overlay-image" style="background-image:url(./images/home-slide-2.jpg);">
+                    </div>
+                    <div class="carousel-caption d-md-block">
+                        <div class="container bannar-contant">
+                            <h1>Laughing and Crying</h1>
+                            <p class="d-none d-md-block">"In all the world, there is no heart for me like yours. In
+                                all the world, there is no love for you like mine." — Maya Angelou</p>
+                            <a href="https://www.brides.com/gallery/heartwarming-ceremony-moments" target="_blank"
+                                class="btn btn-lg btn-light text-primary fw-bolder">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3th silder -->
+                <div class="carousel-item">
+                    <div class="overlay-image" style="background-image:url(./images/home-slide-3.jpg);">
+                    </div>
+                    <div class="carousel-caption d-md-block">
+                        <div class="container bannar-contant">
+                            <h1>Laughing and Crying</h1>
+                            <p class="d-none d-md-block">"In all the world, there is no heart for me like yours. In
+                                all the world, there is no love for you like mine." — Maya Angelou</p>
+                            <a href="https://www.brides.com/gallery/heartwarming-ceremony-moments" target="_blank"
+                                class="btn btn-lg btn-light text-primary fw-bolder">BOOK NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
 
 
 
@@ -52,4 +130,5 @@
     <script src="https://kit.fontawesome.com/f0ecdff264.js" crossorigin="anonymous"></script>
     <script src="./bootstraps/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
