@@ -29,3 +29,38 @@
     background-color: #0EB582;
 }
 
+
+/* Our Popular Courses */
+
+.course-card{
+position: relative;
+cursor: pointer;
+}
+
+.course-card:hover .course-card-read{
+    display: block;
+}
+.course-card:hover img{
+    opacity: .9;
+}
+.course-card:hover h2{
+ display: none;
+}
+.course-card img{
+    opacity: .4;
+}
+
+.course-card-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.course-card-read{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: none;
+    background-color: #0EB582;
+    opacity: .8;
+}
